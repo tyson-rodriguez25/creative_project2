@@ -1,0 +1,90 @@
+* {
+  font-family: 'Helvetica', sans-serif !important;
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: #A5CBD8;
+  justify-content: center;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+}
+
+.footer-item {
+        border: 1px solid #FFF;
+        background-color: #B3D3D5;
+        height: 30px;
+        flex: 1;
+}
+
+.footer-one, .footer-three {
+        background-color: #7C9DB0;
+        flex: initial;
+        width: 300px;
+}
+
+.github-link {
+        display: flex;
+        justify-content: center;
+}
+.github-link {
+        color: #000000;
+}
+#Header {
+  background: #7C9DB0;
+  padding: 5px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+form {
+  padding: 15px;
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    width: 90%;
+}
+
+img {
+  padding-bottom: 15px;
+}
+
+p {
+  font-family: "Bahnschrift", sans-serif !important;
+  padding: 15px;
+}
+
+.weatherbox {
+  width: 23%;
+  display: inline-block;
+}
+
+.jokebox {
+  border-style: double;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
