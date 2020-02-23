@@ -23,7 +23,7 @@
 .footer-item {
         border: 1px solid #FFF;
         background-color: #B3D3D5;
-        height: 30px;
+        height: 57px;
         flex: 1;
 }
 
@@ -36,6 +36,7 @@
 .github-link {
         display: flex;
         justify-content: center;
+        padding-top: 5px;
 }
 .github-link {
         color: #000000;
